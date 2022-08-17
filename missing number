@@ -1,0 +1,17 @@
+#include <stdio.h>
+
+int main() {
+  int a[10],i,k;
+  for(i=0;i<5;i++)
+  {
+      scanf("%d",&a[i]);
+  }
+  scanf("%d",&k);
+  for(i=0;i<5;i++)
+  {
+      if(a[i]==k)
+      printf("%d element found",a[i]);
+  }
+
+    return 0;
+}
