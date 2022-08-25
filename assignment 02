@@ -1,0 +1,15 @@
+#include<stdio.h>
+int main ()
+{
+  char str[10];
+  int i;
+  gets(str);
+  for(i=0;str[i]!='\0';i++)
+{
+     if(i%2!=0)
+       str[i]-=32;
+   }
+ } 
+  puts(str);
+  return 0;
+}
