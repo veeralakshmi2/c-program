@@ -1,0 +1,7 @@
+list=[4,7,9,6]
+print('enter any number:')
+n=int(input())
+if n in list:
+    print('available')
+else:
+    print('not available')
