@@ -1,0 +1,6 @@
+l=[1,2,3,45,3,4]
+m=[]
+for i in l:
+    if l not in m:
+        m.append(i)
+    print(m)
