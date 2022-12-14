@@ -1,0 +1,13 @@
+n=int(input())
+m=n
+l=[]
+m=[]
+for i range(1,n+1):
+   num=int(input())
+   l.append(num)
+max=l[0]
+for i in l:
+    if i>max:
+        max=i
+    m.append(max)
+print(m)
