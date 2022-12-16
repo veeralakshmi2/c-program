@@ -1,0 +1,9 @@
+str1=input('enter string in small letters')
+lenght=len(str1)
+print(lenght)
+print(str1.upper())
+str2=input('enter string in capital letters')
+n=len(str2)
+print(n)
+print(str2.lower())
+
