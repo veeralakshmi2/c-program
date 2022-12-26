@@ -1,0 +1,6 @@
+n= int(input())
+print(n**(1/2))
+if n>=100:
+    print("Hello")
+else:
+    print("Hi")
