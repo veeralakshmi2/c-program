@@ -1,0 +1,21 @@
+def is_prime(n):
+    a= False
+    cnt=0
+    for i in range(1,n+1):
+        if n%i ==0 :
+            cnt+=1
+    if cnt==2:
+        a=True
+    return a
+
+l = list(map(int,input().split()))
+sr = sorted(l)
+for i in sr:
+    if is_prime(i):
+        print(i,"is min prime")
+        break
+for j in sr[::-1]:
+    if is_prime(j):
+        print(j,"is max prime")
+        break
+'''
