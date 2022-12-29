@@ -1,0 +1,28 @@
+import math
+import os
+import random
+import re
+import sys
+
+def rotLeft(a, d):        
+    for _ in range(d):
+        a.append(a.pop(0))
+    return a
+
+if _name_ == '_main_':
+    fptr = open(os.environ['OUTPUT_PATH'], 'w')
+
+    first_multiple_input = input().rstrip().split()
+
+    n = int(first_multiple_input[0])
+
+    d = int(first_multiple_input[1])
+
+    a = list(map(int, input().rstrip().split()))
+
+    result = rotLeft(a, d)
+
+    fptr.write(' '.join(map(str, result)))
+    fptr.write('\n')
+
+    fptr.close()
