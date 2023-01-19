@@ -1,0 +1,11 @@
+n=input()
+m=len(n)
+l=[]
+for letter in n:
+    l.append(letter)
+print(l)
+for i in range(0,m):
+    for j in range(0,m):
+        print(l[j],end=" ")
+    m=m-1
+    print('\n')
