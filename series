@@ -1,0 +1,11 @@
+n=input()
+m=len(n)
+l=[]
+t=int(input())
+for letter in n:
+    l.append(letter)
+z=[]
+for i in l:
+    for j in range(0,t):
+        z.append(i)
+print(''.join([str(elem) for elem in z]))
